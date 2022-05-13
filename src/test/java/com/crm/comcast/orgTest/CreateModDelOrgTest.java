@@ -9,7 +9,7 @@ public class CreateModDelOrgTest
 	{
 		System.out.println("-----organization created---------");
 		String dname = System.getProperty("browser");
-		System.out.println(dname);
+		System.out.println(dname);//update2
 		String ulink = System.getProperty("url");//updated
 		System.out.println(ulink);
 		
