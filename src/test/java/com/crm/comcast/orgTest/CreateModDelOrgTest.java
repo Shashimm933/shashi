@@ -10,6 +10,9 @@ public class CreateModDelOrgTest
 		System.out.println("-----organization created---------");
 		String dname = System.getProperty("browser");
 		System.out.println(dname);
+		String ulink = System.getProperty("url");
+		System.out.println(ulink);
+		
 	}
 	
 	@Test(groups = "Integration")
